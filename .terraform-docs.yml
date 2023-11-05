@@ -1,8 +1,8 @@
-formatter: "markdown" # this is required
+formatter: "json" # this is required
 
 version: ""
 
-header-from: main.tf
+header-from: vpc.tf
 footer-from: ""
 
 recursive:
@@ -17,7 +17,7 @@ content: ""
 
 output:
   file: ""
-  mode: inject
+  mode: replace
   template: |-
     <!-- BEGIN_TF_DOCS -->
     {{ .Content }}
