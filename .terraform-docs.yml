@@ -3,8 +3,8 @@ formatter: toml # this is required
 
 version: ""
 
-header-from: main.tf
-footer-from: "variables.tf"
+header-from: vpc.tf
+footer-from: vpc-variables.tf
 
 
 content: ""
